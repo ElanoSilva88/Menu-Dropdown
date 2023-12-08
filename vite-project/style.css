@@ -12,14 +12,14 @@ section {
 .listLinks {
   display: flex;
   flex-direction: column;
-  border: 1px solid #1C1C1C;
   padding: 25px 50px;
   width: 280px;
   gap: 20px;
-  background-color: #9da3ae;
+  background-color: #16191f;
+  border: 1px solid rgb(41, 127, 240);
   left: 0;
   top: 50px;
-  cursor: pointer;
+  
   }
 
 .btnLoggin {
@@ -28,7 +28,7 @@ section {
   width: 280px;
   gap: 15px;
   background-color: #9da3ae;
-  border: 1px solid #1C1C1C;
+  border: 1px solid rgb(41, 127, 240);
   left: 0;
   top: 50px;
   justify-content: center;
@@ -46,6 +46,7 @@ section {
   padding-left: 25px;
   opacity: 85%;
 }
+
 .txtLoggin {
 
 }
@@ -66,4 +67,8 @@ section {
 
 .escudoTimes {
   width: 40px;
+}
+
+.imgsTimes:hover{
+  background-color: rgb(41, 127, 240);
 }
