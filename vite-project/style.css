@@ -3,17 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-section {
- margin-left: 10px;
- margin-top: 10px;
+
+
+main{
+  display: flex;
+  
 }
 
 
 .listLinks {
   display: flex;
   flex-direction: column;
-  padding: 25px 50px;
-  width: 280px;
+  width: 240px;
   gap: 20px;
   background-color: #16191f;
   border: 1px solid rgb(41, 127, 240);
@@ -25,7 +26,7 @@ section {
 .btnLoggin {
   display: flex;
   padding: 10px;
-  width: 280px;
+  width: 240px;
   gap: 15px;
   background-color: #9da3ae;
   border: 1px solid rgb(41, 127, 240);
@@ -46,29 +47,32 @@ section {
   padding-left: 25px;
   opacity: 85%;
 }
-
-.txtLoggin {
-
-}
-
-.imgBR {
-  margin-left: -15px;
-  
-  
-
-}
-
-.imgsTimes {
+.listTimes {
   display: flex;
+  padding: 10px 20px ;
   align-items: center;
   gap: 15px;
-  margin-left: -20px;
-}
-
+  }
 .escudoTimes {
   width: 40px;
 }
-
-.imgsTimes:hover{
+.listTimes:hover{
   background-color: rgb(41, 127, 240);
+}
+.timePalmeiras{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;  
+  width: 140px;
+  background-color: #16191f;
+  top: 90px;
+}
+.timePalmeiras img{
+  
+  width: 50px;  
+}
+.jgPal {
+  list-style: none;
+  
 }
