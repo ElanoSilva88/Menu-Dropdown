@@ -59,20 +59,30 @@ main{
 .listTimes:hover{
   background-color: rgb(41, 127, 240);
 }
-.timePalmeiras{
+.listaJogadoresPal{
   position: absolute;
   display: flex;
   flex-direction: column;
+  left: 240px;
+  gap: 5px;
   padding: 10px 20px;  
   width: 140px;
   background-color: #16191f;
   top: 90px;
 }
-.timePalmeiras img{
-  
-  width: 50px;  
+.listaJogadoresPal img{
+  width: 60px;
+}
+.timePalmeiras {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 .jgPal {
   list-style: none;
-  
+}
+
+.hidden {
+  display: none;
 }
